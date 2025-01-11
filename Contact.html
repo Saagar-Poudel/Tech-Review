@@ -3,76 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact </title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table width="100%">
-        <tr>
-    
-            <td>
-                <img src="logo.png" alt="">
-            </td>
-            <td>
-            <a href="index.html">Home </a>
-            </td> &nbsp;
-            <td>
-            <a href="AboutUS.html">About Us </a>
-            </td>
-            <td>
-            <a href="Contact.html">Contact </a>
-            </td>
-            <td>
-                 <a href="Gadgets.html">Gadgets</a>
-            </td>
-            <td>
-                 <input type="text" name="" id="" placeholder="Search the Gadgets" >
-                 <button>search</button> 
-            </td>
-            
-        </tr>
-        <tr>
-            <td colspan="6"><img src="contact-us-6933645_1280.jpg" alt="" width="100%" ></td>
-        </tr>
-       </table>
-       <hr>
-    <form >
-      <h3>You can report any of your problem and difficulties you face in this page in the given form  </h3> 
-      <table>
-        <tr>
-            <td><label for="">Full Name:</label></td>
-            <td><input type="text" name="txtname " id=""></td>
-        </tr>
-        <tr>
-            <td><label for="">Address: </label></td>
-            <td><input type="text" name="txtaddress " id=""></td>
-        </tr>
-        <tr>
-            <td> <label for="">Subject:</label></td>
-            <td><input type="text" name="txtSubject " id=""></td>
-        </tr>
-        <tr>
-            <td><label for="">Email:</label></td>
-            <td><input type="email" name="txtemail " id=""></td>
-        </tr>
-        <tr>
-            <td><label for="">Message:</label></td>
-            <td> <textarea name="" id="" > </textarea> </td>
-        </tr>
-        <tr>
-            <td><input type="submit" name="" id=""></td>
-        </tr>
-      </table>
+    <header>
+        <div class="header-container">
+            <img src="assets/logo.png" alt="Logo" class="logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="AboutUS.html">About Us</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Gadgets.html">Gadgets</a>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Search the Gadgets">
+                <button>Search</button>
+            </div>
+        </div>
+        <div class="banner">
 
-    </form>
-    <hr>
-    <p>Also you can leave your message through this Email and whatapp </p>
-   
-    <p> Email:
-        <a href="mailto:poudelsagar920@gmailcom">poudelsagar920@gmail.com</a>
-    </p>
-    <p>Whatapp: 9826270678
+            <img src="assets/contact-us-6933645_1280.jpg" alt="Contact Us" class="header-banner">
+        </div>
+    </header>
 
-    </p>
-    <hr>
+    <main>
+        <section class="contact-form-section">
+            <h3>You can report any of your problems or difficulties on this page using the form below:</h3>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" placeholder="Enter your address" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section class="additional-contact">
+            <p>You can also leave your message through the following email or WhatsApp:</p>
+            <p>Email: <a href="mailto:poudelsagar920@gmail.com">poudelsagar920@gmail.com</a></p>
+            <p>WhatsApp: 9826270678</p>
+        </section>
+
+        <hr>
+    </main>
 </body>
 </html>
+
+
+
+

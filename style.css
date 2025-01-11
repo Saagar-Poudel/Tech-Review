@@ -142,11 +142,7 @@ hr {
     border-radius: 4px;
     cursor: pointer;
 }
- .imggadget img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
+ 
 
 .gallery {
     display: grid;
@@ -185,4 +181,63 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/*  CSS for contact us FORM */
+.contact-form-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    /* background-color: #ffffff; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0.8, 0.6);
+    border-radius: 8px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    /* border-color: #007bff;
+    outline: none; */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+
+}
+.submit-button:hover{
+    background-color: #0056b3;
 }
