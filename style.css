@@ -89,6 +89,9 @@ section {
     border: 1px solid #ddd;
     border-radius: 8px;
 }
+.product img:hover{
+    transform: scale(1.05);
+}
 
 .product-details {
     flex: 1;
@@ -209,6 +212,7 @@ a:hover {
     /* border-color: #007bff;
     outline: none; */
 }
+
 
 .form-group {
     display: flex;
