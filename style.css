@@ -245,3 +245,9 @@ a:hover {
 .submit-button:hover{
     background-color: #0056b3;
 }
+
+
+.about-content{
+    margin: 12px;
+    padding: 12px;
+}
