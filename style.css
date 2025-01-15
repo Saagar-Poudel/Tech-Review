@@ -133,7 +133,73 @@ hr {
     border: none;
     border-top: 1px solid #ccc;
     margin: 20px 0;
+} 
+
+/* footer style for all pages  */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+
+.footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007BFF
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #007BFF;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 60px;
+    height: 60px;
+   margin: 12px;
+   padding: 12px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
 
 
  /* css only for gadgets.html  */

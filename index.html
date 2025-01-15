@@ -5,7 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Review</title>
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .info {
+            background-color: orange;
+            height: 41px;
+            width: auto;
+        }
+
+        .inforamtion a {
+            margin: 22px;
+            padding: 22px;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,16 +36,16 @@
                 <input type="submit">
             </div>
         </div>
-        <div class="banner">
+        <!-- <div class="banner">
             <img src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw05cf6619/images/Category%20Banners/Espot_new10.jpeg"
                 alt="Banner Image" width="100%">
-        </div>
+        </div> -->
         <div class="video-container">
             <video
                 src="https://media.rolex.com/video/upload/c_limit,w_2440/f_auto:video/q_auto:eco/v1/rolexcom/new-watches/2024/hub-watches/videos/cover/rolex-watches-collection-hub-cover-autoplay"
                 loop autoplay muted width="100%"></video>
         </div>
-        <hr>
+
     </header>
 
     <div class="content">
@@ -76,8 +88,15 @@
             </div>
 
             <h2>For more information about watches, visit:</h2>
-            <a href="https://www.daraz.com.np/catalog/?q=watch" target="_blank">Daraz</a><br>
-            <a href="https://www.titannepal.com/" target="_blank">Titan Nepal</a>
+            <div class="inforamtion">
+
+                <a href="https://www.daraz.com.np/catalog/?q=watch" target="_blank"> <img src="assets/Darazlogo.png"
+                        alt="" class="info"> </a>
+
+                <a href="https://www.titannepal.com/" target="_blank"> <img
+                        src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwb6d5816b/images/homepage/titan-logo.svg"
+                        alt=""></a>
+            </div>
         </section>
 
         <hr>
@@ -110,11 +129,50 @@
             </div>
 
             <h2>For more information about cameras, visit:</h2>
-            <a href="https://www.daraz.com.np/catalog/?spm=a2a0e.pdp_revamp.search.2.24d07622ewcKtf&q=camara"
-                target="_blank">Daraz</a><br>
-            <a href="https://www.amazon.in/s?k=camara" target="_blank">Amazon</a>
+            <div class="inforamtion">
+
+                <a href="https://www.daraz.com.np/catalog/?q=watch" target="_blank"> <img src="assets/Darazlogo.png"
+                        alt="" class="info"> </a>
+
+                <a href="https://www.flipkart.com/search?q=camara&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"
+                    target="_blank"><img
+                        src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
+                        alt=""></a>
+            </div>
+
         </section>
     </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutUS.html">About Us</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Gadgets.html">Gadgets</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><img src="assets/facebooklogo.png" alt="Facebook"></a>
+                    <a href="#"><img src="assets/Whatsapplogo.png" alt="Whatsapp"></a>
+                    <a href="#"><img src="assets/instragramlogo.jpg" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@techreview.com</p>
+                <p>Phone: +123-456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tech Review. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
 </body>
 
 </html>
