@@ -16,6 +16,92 @@
         margin: 22px;
         padding: 22px;
       }
+
+
+.product{
+  margin: 22px;
+  padding: 22px;
+}
+      .product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: orange;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-brand {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.product-price {
+  margin: 10px 0;
+}
+
+.current-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: orange;
+}
+
+.original-price {
+  font-size: 14px;
+  color: #888;
+  text-decoration: line-through;
+}
+
+.rating {
+  margin: 10px 0;
+  color: #f5c518;
+}
+
+.reviews {
+  font-size: 12px;
+  color: #555;
+  margin-left: 5px;
+}
+
+.stock {
+  font-size: 14px;
+  color: green;
+}
      
 
     </style>
@@ -63,153 +149,112 @@
             
         </div>
       </div>
-      <div class="foryou">
+     
+    </div>
 
+  <div class="product">
+    <h1> Featured Colllection </h1>
+  </div>
 
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="discount-badge">Save $800.00</div>
+        <img src="assets/oled-tvs-600.avif" alt="Sony TV" class="product-image">
+        <div class="product-brand">SONY</div>
+        <h3 class="product-title">Sony XBR-950G BRAVIA 4K HDR Ultra HD TV</h3>
+        <p class="product-price"><span class="current-price">From $1,398.00</span> <span class="original-price">$2,198.00</span></p>
+        <div class="rating">
+          ⭐⭐⭐⭐⭐ 
+          <span class="reviews">3 reviews</span>
+        </div>
+        <div class="stock">In stock, 77 units</div>
       </div>
+  
+      <div class="product-card">
+        <div class="discount-badge">Save $25.00</div>
+        <img src="assets/headphone.webp" alt="JBL Speaker" class="product-image">
+        <div class="product-brand">JBL</div>
+        <h3 class="product-title">JBL Flip 4 Waterproof Portable Bluetooth Speaker</h3>
+        <p class="product-price"><span class="current-price">$74.95</span> <span class="original-price">$99.95</span></p>
+        <div class="rating">
+          ⭐⭐⭐⭐
+          <span class="reviews">2 reviews</span>
+        </div>
+        <div class="stock">In stock, 71 units</div>
+      </div>
+
+      <div class="product-card">
+        <div class="discount-badge">Save $25.00</div>
+        <img src="assets/jbl.webp" alt="JBL Speaker" class="product-image">
+        <div class="product-brand">JBL</div>
+        <h3 class="product-title">JBL Flip 4 Waterproof Portable Bluetooth Speaker</h3>
+        <p class="product-price"><span class="current-price">$74.95</span> <span class="original-price">$99.95</span></p>
+        <div class="rating">
+          ⭐⭐⭐⭐
+          <span class="reviews">2 reviews</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="discount-badge">Save $125.00</div>
+        <img src="assets/sony headphone.webp" alt="JBL Speaker" class="product-image">
+        <div class="product-brand">JBL</div>
+        <h3 class="product-title">JBL Flip 4 Waterproof Portable Bluetooth Speaker</h3>
+        <p class="product-price"><span class="current-price">$74.95</span> <span class="original-price">$99.95</span></p>
+        <div class="rating">
+          ⭐⭐⭐⭐
+          <span class="reviews">2 reviews</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="discount-badge">Save $45.00</div>
+        <img src="assets/sony blue ray disk.webp" alt="JBL Speaker" class="product-image">
+        <div class="product-brand">JBL</div>
+        <h3 class="product-title">JBL Flip 4 Waterproof Portable Bluetooth Speaker</h3>
+        <p class="product-price"><span class="current-price">$74.95</span> <span class="original-price">$99.95</span></p>
+        <div class="rating">
+          ⭐⭐⭐⭐
+          <span class="reviews">2 reviews</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="discount-badge">Save $253.00</div>
+        <img src="assets/sony.webp" alt="JBL Speaker" class="product-image">
+        <div class="product-brand">JBL</div>
+        <h3 class="product-title">JBL Flip 4 Waterproof Portable Bluetooth Speaker</h3>
+        <p class="product-price"><span class="current-price">$74.95</span> <span class="original-price">$99.95</span></p>
+        <div class="rating">
+          ⭐⭐⭐⭐
+          <span class="reviews">2 reviews</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="discount-badge">Save $235.00</div>
+        <img src="assets/projector.jpg" alt="JBL Speaker" class="product-image">
+        <div class="product-brand">JBL</div>
+        <h3 class="product-title">JBL Flip 4 Waterproof Portable Bluetooth Speaker</h3>
+        <p class="product-price"><span class="current-price">$74.95</span> <span class="original-price">$99.95</span></p>
+        <div class="rating">
+          ⭐⭐⭐⭐
+          <span class="reviews">2 reviews</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="discount-badge">Save $425.00</div>
+        <img src="assets/earbuds-600_.avif" alt="JBL Speaker" class="product-image">
+        <div class="product-brand">JBL</div>
+        <h3 class="product-title">JBL Flip 4 Waterproof Portable Bluetooth Speaker</h3>
+        <p class="product-price"><span class="current-price">$74.95</span> <span class="original-price">$99.95</span></p>
+        <div class="rating">
+          ⭐⭐⭐⭐
+          <span class="reviews">2 reviews</span>
+        </div>
+      </div>
+      
+      <!-- Add more product cards here -->
+  
     </div>
 
-    <div class="content">
-      <section>
-        <h2>Watch</h2>
-        <div class="product">
-          <img
-            src="https://img.drz.lazcdn.com/static/np/p/82bf82be86dec66660d54da128317795.jpg_400x400q75.jpg_.webp"
-            alt=""
-            height="250"
-            width="250"
-          />
-          <div class="product-details">
-            <h3>
-              Fashionable Stick Index Men Watch PU Leather Strap Analog -
-              Black/White
-            </h3>
-            <p>Brand Series : No Brand Watch Case Shape: Round</p>
-            <p>
-              Water Resistant : Not Water Resistance Strap Material: Leather
-            </p>
-            <p>For: Men</p>
-            <h4>This watch is very attractive and looks good in your hand.</h4>
-          </div>
-        </div>
 
-        <div class="product">
-          <img
-            src="https://www.titannepal.com/cdn/shop/files/2593YM02_1.jpg?v=1716896151&width=1920"
-            alt=""
-            height="250"
-            width="250"
-          />
-          <div class="product-details">
-            <h3>Titan Quartz Analog White Dial Metal Strap Watch for Women</h3>
-            <p>Brand Name : Titan Watch Case Shape: Round</p>
-            <p>
-              Water Resistant : Not Water Resistance Strap Material: Leather
-            </p>
-            <p>For: Women</p>
-            <h4>This watch is very attractive and looks good in your hand.</h4>
-          </div>
-        </div>
-
-        <div class="product">
-          <img
-            src="https://www.titannepal.com/cdn/shop/files/2639SL02_1_55238c3f-f0d2-4c61-b7c4-5e360c2f2428.jpg?v=1716898906&width=1920"
-            alt=""
-            height="250"
-            width="250"
-          />
-          <div class="product-details">
-            <h3>
-              Fashionable Stick Index Men Watch PU Leather Strap Analog -
-              Black/White
-            </h3>
-            <p>Brand Series : No Brand Watch Case Shape: Round</p>
-            <p>
-              Water Resistant : Not Water Resistance Strap Material: Leather
-            </p>
-            <p>For: Men</p>
-            <h4>This watch is very attractive and looks good in your hand.</h4>
-          </div>
-        </div>
-
-        <h2>For more information about watches, visit:</h2>
-        <div class="inforamtion">
-          <a href="https://www.daraz.com.np/catalog/?q=watch" target="_blank">
-            <img src="assets/Darazlogo.png" alt="" class="info" />
-          </a>
-
-          <a href="https://www.titannepal.com/" target="_blank">
-            <img
-              src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwb6d5816b/images/homepage/titan-logo.svg"
-              alt=""
-          /></a>
-        </div>
-      </section>
-
-      <hr />
-
-      <section>
-        <h2>Camera</h2>
-        <div class="product">
-          <img
-            src="https://img.drz.lazcdn.com/static/np/p/6fe2dbbbf3ae3d3ae69089406bda2b70.jpg_400x400q75.jpg_.webp"
-            alt=""
-            height="230"
-            width="230"
-          />
-          <div class="product-details">
-            <h3>Canon EOS 3000D(18-55)III KIT Camera - Canon Digital Camera</h3>
-            <p>Brand Name : Cannon Model: EOS 3000D</p>
-            <p>
-              Battery Life (Approx.): 410 shots 18-megapixel APS-C-size CMOS
-              sensor & DIGIC 4+ image processor
-            </p>
-            <p>Wi-Fi supported</p>
-            <h4>
-              This camera is very attractive and includes a battery, charger,
-              and strap.
-            </h4>
-          </div>
-        </div>
-
-        <div class="product">
-          <img
-            src="https://img.drz.lazcdn.com/g/kf/Sad4f3059b7844a79b1482a9f2edfa548n.jpg_400x400q75.jpg_.webp"
-            alt=""
-            height="250"
-            width="250"
-          />
-          <div class="product-details">
-            <h3>Fujifilm Instax Mini 12 Instant Camera</h3>
-            <p>
-              Brand Name : No Brand &nbsp;&nbsp;&nbsp;&nbsp; Model: Instax Mini
-              12
-            </p>
-            <p>
-              Perfect for capturing instant memories. Autofocus feature for
-              clear and sharp images.
-            </p>
-            <p>Wi-Fi supported</p>
-            <h4>This camera is portable and fits easily in your pocket.</h4>
-          </div>
-        </div>
-
-        <h2>For more information about cameras, visit:</h2>
-        <div class="inforamtion">
-          <a href="https://www.daraz.com.np/catalog/?q=watch" target="_blank">
-            <img src="assets/Darazlogo.png" alt="" class="info" />
-          </a>
-
-          <a
-            href="https://www.flipkart.com/search?q=camara&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"
-            target="_blank"
-            ><img
-              src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
-              alt=""
-          /></a>
-        </div>
-      </section>
-    </div>
 
     <footer class="footer">
       <div class="footer-container">

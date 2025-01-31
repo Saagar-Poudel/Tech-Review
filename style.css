@@ -64,18 +64,18 @@ nav a:hover {
   padding: 20px;
 }
 
-section {
+/* section {
   margin-bottom: 40px;
-}
+} */
 
-.product {
+ /* .product {
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  background-color: #f9f9f9;
+   background-color: #f9f9f9; 
 }
 
 .product img {
@@ -105,7 +105,7 @@ section {
   margin-top: 10px;
   font-weight: bold;
   color: #007bff;
-}
+} 
 
 section h2 {
   margin-bottom: 20px;
@@ -127,7 +127,7 @@ hr {
   border: none;
   border-top: 1px solid #ccc;
   margin: 20px 0;
-}
+} */
 
 /* footer style for all pages  */
 .footer {
@@ -215,11 +215,7 @@ hr {
 .ourcollection div {
   text-align: center;
   padding: 10px;
-  /* border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 222px; */
+  
 }
 
 .ourcollection img {
@@ -229,10 +225,14 @@ hr {
   transition: transform 0.3s ease;
 }
  
+.ourcollection :hover{
+  color: orange;
+}
 
 .ourcollection img:hover{
   cursor: pointer;
   transform: scale(1.05);
+ 
 }
 
 .gallery {
